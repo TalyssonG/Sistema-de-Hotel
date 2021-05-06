@@ -1,3 +1,5 @@
+<?php //Apenas para envio(GitHub)
+
 CREATE DATABASE assistencia;
 
 CREATE TABLE Recepcionista (
@@ -64,5 +66,4 @@ Checkin_id_hospede_checkin_Hospede_id_hospede FOREIGN KEY
 ALTER TABLE Checkin ADD CONSTRAINT Checkin_id_quarto_Quarto_id_quarto
 FOREIGN KEY (id_quarto) REFERENCES Quarto(id_quarto);
 
-
-
+?>
